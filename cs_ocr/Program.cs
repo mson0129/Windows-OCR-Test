@@ -11,23 +11,12 @@ namespace ocr
 {
     class Program
     {
-        // static async Task Main(string[] args)
-        // static void Main(string[] args)
         static async Task Main(string[] args)
         {
             int argsCount = args.Length;
-
-            Console.WriteLine("Hello World!");
-
             
-            if (argsCount < 1)
+            if (argsCount == 1)
             {
-                Console.WriteLine("Usage: cs_ocr.exe {inputFilename}");
-            }
-            else
-            {
-                Console.WriteLine("{0}", args[0]);
-
                 var language = new Language("ko");
                 if (!OcrEngine.IsLanguageSupported(language))
                 {
@@ -41,6 +30,10 @@ namespace ocr
                 var ocrResult = await engine.RecognizeAsync(bitmap).AsTask();
 
                 Console.WriteLine(ocrResult.Text);
+            }
+            else
+            {
+                Console.WriteLine("Usage: cs_ocr.exe {inputFileName}");
             }
         }
     }

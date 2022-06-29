@@ -1,8 +1,7 @@
 {
   "profiles": {
     "cs_ocr": {
-      "commandName": "Project",
-      "commandLineArgs": "C:\\exceptions\\cs_ocr\\1.jpg"
+      "commandName": "Project"
     }
   }
 }
