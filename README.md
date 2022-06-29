@@ -18,6 +18,10 @@ Visual Studio 2019 Community Edition으로 프로젝트 생성 및 개발하였�
 
 cs_ocr.exe image-file-path.jpg
 
+## 테스트 후기
+
+인식 성능은 오픈소스인 Tesseract보다 좋았으나, 카카오 OCR API 등 AI 기반의 온라인 API보다 성능이 떨어졌습니다.
+
 # 참조(References)
 * [C#으로 Windows 10 OCR 사용하기](https://velog.io/@rkttu/csharp-win10-ocr-howto)
 
