@@ -12,6 +12,8 @@ Windows 11 한국어 광학 인식(Korean OCR) 테스트를 위한 CLI 프로그
 
 [남정현님의 아티클](https://velog.io/@rkttu/csharp-win10-ocr-howto)을 참고하여, CLI 기반으로 이미지 경로 전달 시 OCR 처리를 할 수 있도록 하였습니다.
 
+Visual Studio 2019 Community Edition으로 프로젝트 생성 및 개발하였습니다.
+
 ## 사용방법
 
 cs_ocr.exe image-file-path.jpg
