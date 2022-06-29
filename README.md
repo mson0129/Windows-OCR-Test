@@ -25,4 +25,4 @@ cs_ocr.exe image-file-path.jpg
 # 참조(References)
 * [C#으로 Windows 10 OCR 사용하기](https://velog.io/@rkttu/csharp-win10-ocr-howto)
 
-    * 본 프로젝트에 근간이 되는 아티클입니다. 예제 코드에 namespace와 CLI arguments를 통한 인식용 이미지 경로 전달 부분만 추가하였습니다.
+    * 본 프로젝트에 근간이 되는 아티클입니다. 예제 코드에 namespace와 CLI arguments 등을 추가하여 OCR 대상 이미지 경로를 지정할 수 있게 수정하였습니다.
