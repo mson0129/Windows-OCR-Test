@@ -8,7 +8,7 @@
 
 ![.NET Core](https://img.shields.io/badge/.NET%20Core-v3.1-blue)
 
-Windows 11 한국어 광학 인식(Korean OCR) 테스트를 위한 CLI 프로그램입니다.
+Windows 10 및 Windows 11 한국어 광학 인식(Korean OCR) 테스트를 위한 CLI 프로그램입니다.
 
 [남정현님의 아티클](https://velog.io/@rkttu/csharp-win10-ocr-howto)을 참고하여, CLI 기반으로 이미지 경로 전달 시 OCR 처리를 할 수 있도록 하였습니다.
 
@@ -44,7 +44,7 @@ cs_ocr.exe image-file-path.jpg
 
 ## 테스트 후기
 
-인식 성능은 오픈소스인 Tesseract보다 좋았으나, 카카오 OCR API 등 AI 기반의 온라인 API보다 성능이 떨어졌습니다.
+인식 성능은 오픈소스인 Tesseract보다 좋았으나, 카카오 OCR API 등 AI 기반의 온라인 API보다는 떨어졌습니다.
 
 # 참조(References)
 * [C#으로 Windows 10 OCR 사용하기](https://velog.io/@rkttu/csharp-win10-ocr-howto)
